@@ -15,7 +15,6 @@ getTodos = (req,res) => {
     }
     else{
         res.send(todos)
-        console.log("olmadı yar");
     }
     
 }
