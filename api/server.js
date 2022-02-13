@@ -9,7 +9,7 @@ const todoroutes = require("./src/routers/todosRouter");
 // create express app
 const app = express();
 
-// using endpoint taken from routes
+// using endpoint taken from routers
 
 app.use("", postroutes.router);
 app.use("", userroutes.router);
